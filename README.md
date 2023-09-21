@@ -13,6 +13,8 @@ containers metrics.
 
 ## What is Redis?
 Redis is a document cache needs to store the data of the cAdvisor. In other words, When to use cAdvisor, we also need Redis.
+## What is node-exporter?
+Node exporter is a tool that allow you to gather the nodes metrics. The prometheus used the pull mechanism so the retriver component pull the metrics from the node exporter to prometheus db.  
 ## Steps to install prometheus
 1) Download the prometheus config file
   ``Wget https://raw.githubusercontent.com/prometheus/prometheus/main/documentation/examples/prometheus.yml``
